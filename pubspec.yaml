@@ -1,0 +1,41 @@
+name: senaflutterapp
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5 
+  http: ^1.0.0
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  
+  uses-material-design: true
+
+  assets:
+    - assets/images/ic_imslogo.png
+    - assets/images/googlelogo.png
+    - assets/images/fblogo.jpg
+    - assets/images/twitterlogo.jpg
+    - assets/images/ulogo.png
+    - assets/images/ulogo.jpg
+    - assets/images/login.png
+    - assets/images/logo.png
+    - assets/images/powered_by.png
+    - assets/images/logo-sena-verde.png
+    - assets/images/logo-sena-blanco.png
+    - assets/images/qrcode-generado.png
+
+  
